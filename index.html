@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="TravelEase - Modern 3D Full Stack Travel Management System Portfolio"
+    >
+
+    <title>TravelEase | 3D Project Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+<!-- =========================================================
+     LOADING SCREEN
+========================================================= -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-orbit">
+
+        <div class="loader-plane">
+            ✈
+        </div>
+
+    </div>
+
+    <div class="loader-text">
+        TravelEase
+    </div>
+
+    <div class="loader-line">
+        <span></span>
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     CURSOR
+========================================================= -->
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+
+<!-- =========================================================
+     SCROLL PROGRESS
+========================================================= -->
+
+<div class="scroll-progress">
+    <span id="scrollProgress"></span>
+</div>
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-inner">
+
+        <a href="#home" class="brand">
+
+            <div class="brand-icon">
+                <span>✈</span>
+            </div>
+
+            <div class="brand-name">
+                Travel<span>Ease</span>
+            </div>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#home" class="nav-link active">
+                Home
+            </a>
+
+            <a href="#about" class="nav-link">
+                About
+            </a>
+
+            <a href="#features" class="nav-link">
+                Features
+            </a>
+
+            <a href="#technology" class="nav-link">
+                Technology
+            </a>
+
+            <a href="#screenshots" class="nav-link">
+                Screens
+            </a>
+
+            <a href="#architecture" class="nav-link">
+                Architecture
+            </a>
+
+        </nav>
+
+
+        <a
+            href="https://github.com/"
+            target="_blank"
+            class="github-button"
+        >
+            GitHub
+            <span>↗</span>
+        </a>
+
+
+        <button
+            class="mobile-menu"
+            id="mobileMenu"
+            aria-label="Open menu"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+========================================================= -->
+
+<div class="mobile-navigation" id="mobileNavigation">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#technology">Technology</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#architecture">Architecture</a>
+
+</div>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <!-- Animated background -->
+    <div class="hero-glow glow-one"></div>
+    <div class="hero-glow glow-two"></div>
+    <div class="hero-glow glow-three"></div>
+
+    <!-- Mountains -->
+    <div class="mountain-layer"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+
+    <div class="hero-container">
+
+
+        <!-- LEFT CONTENT -->
+
+        <div class="hero-content">
+
+            <div class="eyebrow reveal">
+
+                <span class="eyebrow-dot"></span>
+
+                FINAL YEAR PROJECT
+
+                <span class="eyebrow-line"></span>
+
+                FULL STACK
+
+            </div>
+
+
+            <h1 class="hero-title reveal">
+
+                <span>Plan less.</span>
+
+                <span class="gradient-text">
+                    Experience
+                </span>
+
+                <span>more.</span>
+
+            </h1>
+
+
+            <p class="hero-description reveal">
+
+                TravelEase is a modern full-stack Travel Management
+                System designed to simplify destination discovery,
+                package selection, booking and travel management
+                through one connected digital experience.
+
+            </p>
+
+
+            <div class="hero-actions reveal">
+
+                <a
+                    href="#screenshots"
+                    class="primary-button magnetic"
+                >
+                    <span>Explore Project</span>
+                    <span class="button-arrow">↗</span>
+                </a>
+
+
+                <a
+                    href="#about"
+                    class="secondary-button magnetic"
+                >
+                    <span>Discover More</span>
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+
+            <!-- TECHNOLOGY PILLS -->
+
+            <div class="hero-tech reveal">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>MySQL</span>
+
+            </div>
+
+
+            <!-- MINI STATS -->
+
+            <div class="hero-stats reveal">
+
+                <div class="hero-stat">
+
+                    <strong>10+</strong>
+
+                    <span>
+                        Application<br>
+                        Pages
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat-divider"></div>
+
+
+                <div class="hero-stat">
+
+                    <strong>5+</strong>
+
+                    <span>
+                        Core<br>
+                        Technologies
+                    </span>
+
+                </div>
+
+
+                <div class="hero-stat-divider"></div>
+
+
+                <div class="hero-stat">
+
+                    <strong>100%</strong>
+
+                    <span>
+                        Full Stack<br>
+                        Experience
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT 3D EXPERIENCE -->
+
+        <div class="hero-visual">
+
+            <div class="scene-3d" id="scene3d">
+
+
+                <!-- ORBIT RINGS -->
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+
+                <!-- FLOATING PLANET -->
+
+                <div class="planet-card">
+
+                    <div class="planet-glow"></div>
+
+                    <div class="planet">
+
+                        <div class="planet-land land-one"></div>
+                        <div class="planet-land land-two"></div>
+                        <div class="planet-land land-three"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAIN PROJECT CARD -->
+
+                <div
+                    class="project-window tilt-card"
+                    data-tilt
+                >
+
+                    <div class="window-header">
+
+                        <div class="window-dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="window-address">
+                            travelease / home
+                        </div>
+
+                        <div class="window-status">
+                            ●
+                        </div>
+
+                    </div>
+
+
+                    <div class="window-content">
+
+                        <img
+                            src="images/home.png"
+                            alt="TravelEase Home Page"
+                            class="hero-project-image"
+                            onerror="this.src='images/travelease-preview.png'"
+                        >
+
+
+                        <div class="project-overlay">
+
+                            <div class="overlay-badge">
+                                LIVE EXPERIENCE
+                            </div>
+
+                            <h3>
+                                Explore Amazing
+                                Destinations
+                            </h3>
+
+                            <p>
+                                Discover, plan and manage
+                                your next journey.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FLOATING SEARCH -->
+
+                    <div class="floating-search">
+
+                        <div>
+                            <small>Destination</small>
+                            <strong>Mountain Escape</strong>
+                        </div>
+
+                        <div>
+                            <small>Travel</small>
+                            <strong>7 Days</strong>
+                        </div>
+
+                        <button>
+                            Search
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING CARD LEFT -->
+
+                <div class="floating-card card-left">
+
+                    <div class="floating-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Booking Flow
+                        </strong>
+
+                        <span>
+                            Connected experience
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING CARD RIGHT -->
+
+                <div class="floating-card card-right">
+
+                    <div class="floating-icon">
+                        ✦
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Smart Travel
+                        </strong>
+
+                        <span>
+                            Simple planning
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FLOATING BADGE -->
+
+                <div class="floating-number">
+
+                    <span>01</span>
+
+                    <strong>
+                        DISCOVER
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SCROLL INDICATOR -->
+
+    <div class="scroll-indicator">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <div class="scroll-line"></div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="section-container">
+
+
+        <div class="section-heading">
+
+            <div class="section-number">
+                01 — ABOUT
+            </div>
+
+            <h2>
+                Travel planning,
+                <span>reimagined.</span>
+            </h2>
+
+            <p>
+                TravelEase brings the essential parts of travel
+                planning into one clean and connected platform.
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+            <div class="about-main glass-card">
+
+                <div class="card-number">
+                    01
+                </div>
+
+                <div class="about-icon">
+                    ✈
+                </div>
+
+                <h3>
+                    One connected
+                    travel experience.
+                </h3>
+
+                <p>
+                    From discovering destinations to selecting
+                    packages and managing bookings, TravelEase
+                    creates a simple digital journey for travellers.
+                </p>
+
+                <div class="card-link">
+                    Explore the system
+                    <span>↗</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-side">
+
+
+                <div class="info-card glass-card">
+
+                    <span class="info-label">
+                        PURPOSE
+                    </span>
+
+                    <h3>
+                        Simplify
+                        Travel Management
+                    </h3>
+
+                    <p>
+                        Reduce complexity by bringing
+                        travel-related operations into
+                        a single platform.
+                    </p>
+
+                </div>
+
+
+                <div class="info-card glass-card">
+
+                    <span class="info-label">
+                        EXPERIENCE
+                    </span>
+
+                    <h3>
+                        Designed for
+                        real users
+                    </h3>
+
+                    <p>
+                        Clean interfaces, structured workflows
+                        and intuitive navigation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROCESS -->
+
+        <div class="process-wrapper">
+
+            <div class="process-title">
+                HOW IT WORKS
+            </div>
+
+
+            <div class="process-line"></div>
+
+
+            <div class="process-grid">
+
+                <div class="process-item">
+
+                    <span>01</span>
+
+                    <div>
+                        <strong>Discover</strong>
+                        <p>Find destinations</p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>02</span>
+
+                    <div>
+                        <strong>Select</strong>
+                        <p>Choose packages</p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>03</span>
+
+                    <div>
+                        <strong>Book</strong>
+                        <p>Complete booking</p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>04</span>
+
+                    <div>
+                        <strong>Manage</strong>
+                        <p>Track your journey</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FEATURES
+========================================================= -->
+
+<section class="section features-section" id="features">
+
+    <div class="section-container">
+
+        <div class="section-heading split-heading">
+
+            <div>
+
+                <div class="section-number">
+                    02 — FEATURES
+                </div>
+
+                <h2>
+                    Built around
+                    <span>the journey.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                Every feature is designed around the
+                traveller's actual workflow.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <article
+                class="feature-card feature-large tilt-card"
+                data-tilt
+            >
+
+                <div class="feature-top">
+
+                    <span class="feature-index">
+                        01
+                    </span>
+
+                    <span class="feature-icon">
+                        ◇
+                    </span>
+
+                </div>
+
+                <h3>
+                    Destination
+                    Discovery
+                </h3>
+
+                <p>
+                    Explore travel destinations with
+                    structured information and visual
+                    experiences.
+                </p>
+
+                <div class="feature-visual destination-visual">
+
+                    <div class="mini-mountain"></div>
+                    <div class="mini-sun"></div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="feature-card tilt-card"
+                data-tilt
+            >
+
+                <div class="feature-top">
+
+                    <span class="feature-index">
+                        02
+                    </span>
+
+                    <span class="feature-icon">
+                        □
+                    </span>
+
+                </div>
+
+                <h3>
+                    Package
+                    Selection
+                </h3>
+
+                <p>
+                    Browse packages with destination,
+                    duration and travel information.
+                </p>
+
+                <div class="feature-mini-ui">
+
+                    <span>7 Days</span>
+                    <span>₹ 24,999</span>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="feature-card tilt-card"
+                data-tilt
+            >
+
+                <div class="feature-top">
+
+                    <span class="feature-index">
+                        03
+                    </span>
+
+                    <span class="feature-icon">
+                        ✓
+                    </span>
+
+                </div>
+
+                <h3>
+                    Simple
+                    Booking
+                </h3>
+
+                <p>
+                    A structured booking flow that
+                    keeps traveller information organized.
+                </p>
+
+                <div class="feature-check">
+                    <span>✓</span>
+                    Booking confirmed
+                </div>
+
+            </article>
+
+
+            <article
+                class="feature-card feature-wide tilt-card"
+                data-tilt
+            >
+
+                <div class="feature-wide-content">
+
+                    <div>
+
+                        <div class="feature-top">
+
+                            <span class="feature-index">
+                                04
+                            </span>
+
+                            <span class="feature-icon">
+                                ◎
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Personal
+                            Dashboard
+                        </h3>
+
+                        <p>
+                            Centralized access to bookings,
+                            travel details and user information.
+                        </p>
+
+                    </div>
+
+
+                    <div class="dashboard-mockup">
+
+                        <div class="dashboard-top"></div>
+
+                        <div class="dashboard-bars">
+
+                            <span style="height:40%"></span>
+                            <span style="height:75%"></span>
+                            <span style="height:55%"></span>
+                            <span style="height:90%"></span>
+                            <span style="height:65%"></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TECHNOLOGY
+========================================================= -->
+
+<section class="section technology-section" id="technology">
+
+    <div class="section-container">
+
+
+        <div class="section-heading center-heading">
+
+            <div class="section-number">
+                03 — TECHNOLOGY
+            </div>
+
+            <h2>
+                Powered by
+                <span>modern technology.</span>
+            </h2>
+
+            <p>
+                A complete full-stack architecture combining
+                frontend, backend and database technologies.
+            </p>
+
+        </div>
+
+
+        <div class="technology-orbit">
+
+            <div class="tech-orbit-ring"></div>
+
+            <div class="tech-center">
+
+                <span>TE</span>
+
+                <strong>
+                    TravelEase
+                </strong>
+
+                <small>
+                    FULL STACK
+                </small>
+
+            </div>
+
+
+            <div class="tech-node node-html">
+                <strong>HTML</strong>
+                <span>Structure</span>
+            </div>
+
+            <div class="tech-node node-css">
+                <strong>CSS</strong>
+                <span>Design</span>
+            </div>
+
+            <div class="tech-node node-js">
+                <strong>JavaScript</strong>
+                <span>Interaction</span>
+            </div>
+
+            <div class="tech-node node-java">
+                <strong>Java</strong>
+                <span>Backend</span>
+            </div>
+
+            <div class="tech-node node-mysql">
+                <strong>MySQL</strong>
+                <span>Database</span>
+            </div>
+
+        </div>
+
+
+        <div class="tech-list">
+
+            <div>
+                <span>01</span>
+                <strong>Frontend</strong>
+                <p>HTML · CSS · JavaScript</p>
+            </div>
+
+            <div>
+                <span>02</span>
+                <strong>Backend</strong>
+                <p>Java · Servlet architecture</p>
+            </div>
+
+            <div>
+                <span>03</span>
+                <strong>Database</strong>
+                <p>MySQL · JDBC</p>
+            </div>
+
+            <div>
+                <span>04</span>
+                <strong>Development</strong>
+                <p>VS Code · Git · Tomcat</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SCREENSHOTS
+========================================================= -->
+
+<section class="section screenshots-section" id="screenshots">
+
+    <div class="section-container">
+
+
+        <div class="section-heading split-heading">
+
+            <div>
+
+                <div class="section-number">
+                    04 — SCREENS
+                </div>
+
+                <h2>
+                    See the
+                    <span>experience.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                A visual walkthrough of the TravelEase
+                application interface.
+            </p>
+
+        </div>
+
+
+        <div class="screenshots-layout">
+
+
+            <!-- MAIN IMAGE -->
+
+            <div
+                class="main-screenshot glass-card"
+                id="mainScreenshot"
+            >
+
+                <div class="browser-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div>
+                        travelease / experience
+                    </div>
+
+                    <span>
+                        ●
+                    </span>
+
+                </div>
+
+
+                <div class="main-image-wrapper">
+
+                    <img
+                        id="mainScreenImage"
+                        src="images/home.png"
+                        alt="TravelEase Screenshot"
+                    >
+
+                </div>
+
+
+                <div class="screenshot-caption">
+
+                    <div>
+
+                        <span id="screenNumber">
+                            01
+                        </span>
+
+                        <strong id="screenTitle">
+                            Home Experience
+                        </strong>
+
+                    </div>
+
+                    <p id="screenDescription">
+                        Modern destination discovery
+                        experience for travellers.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- THUMBNAILS -->
+
+            <div class="screenshot-list">
+
+
+                <button
+                    class="screen-thumb active"
+                    data-image="images/home.png"
+                    data-title="Home Experience"
+                    data-description="Modern destination discovery experience for travellers."
+                >
+
+                    <img
+                        src="images/home.png"
+                        alt="Home"
+                    >
+
+                    <div>
+                        <span>01</span>
+                        <strong>Home</strong>
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="screen-thumb"
+                    data-image="images/booking.png"
+                    data-title="Booking Experience"
+                    data-description="Structured traveller information and booking workflow."
+                >
+
+                    <img
+                        src="images/booking.png"
+                        alt="Booking"
+                    >
+
+                    <div>
+                        <span>02</span>
+                        <strong>Booking</strong>
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="screen-thumb"
+                    data-image="images/dashboard.png"
+                    data-title="Personal Dashboard"
+                    data-description="Centralized access to travel and booking information."
+                >
+
+                    <img
+                        src="images/dashboard.png"
+                        alt="Dashboard"
+                    >
+
+                    <div>
+                        <span>03</span>
+                        <strong>Dashboard</strong>
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="screen-thumb"
+                    data-image="images/login.png"
+                    data-title="Secure Login"
+                    data-description="Controlled authentication experience for users."
+                >
+
+                    <img
+                        src="images/login.png"
+                        alt="Login"
+                    >
+
+                    <div>
+                        <span>04</span>
+                        <strong>Login</strong>
+                    </div>
+
+                </button>
+
+
+                <button
+                    class="screen-thumb"
+                    data-image="images/confirmation.png"
+                    data-title="Booking Confirmation"
+                    data-description="Clear confirmation experience after completing a booking."
+                >
+
+                    <img
+                        src="images/confirmation.png"
+                        alt="Confirmation"
+                    >
+
+                    <div>
+                        <span>05</span>
+                        <strong>Confirmation</strong>
+                    </div>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ARCHITECTURE
+========================================================= -->
+
+<section class="section architecture-section" id="architecture">
+
+    <div class="section-container">
+
+
+        <div class="section-heading center-heading">
+
+            <div class="section-number">
+                05 — ARCHITECTURE
+            </div>
+
+            <h2>
+                From interface
+                <span>to database.</span>
+            </h2>
+
+            <p>
+                A structured architecture connecting the
+                traveller interface, Java backend and MySQL database.
+            </p>
+
+        </div>
+
+
+        <div class="architecture-diagram">
+
+
+            <div class="architecture-layer frontend-layer">
+
+                <div class="layer-number">
+                    01
+                </div>
+
+                <div class="layer-content">
+
+                    <span class="layer-label">
+                        PRESENTATION
+                    </span>
+
+                    <h3>
+                        Frontend Layer
+                    </h3>
+
+                    <p>
+                        User interface and client-side interactions.
+                    </p>
+
+                    <div class="architecture-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="architecture-connector">
+
+                <span>↓</span>
+
+            </div>
+
+
+            <div class="architecture-layer backend-layer">
+
+                <div class="layer-number">
+                    02
+                </div>
+
+                <div class="layer-content">
+
+                    <span class="layer-label">
+                        APPLICATION
+                    </span>
+
+                    <h3>
+                        Java Backend
+                    </h3>
+
+                    <p>
+                        Server-side logic, authentication
+                        and application processing.
+                    </p>
+
+                    <div class="architecture-tags">
+
+                        <span>Java</span>
+                        <span>Servlet</span>
+                        <span>JDBC</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="architecture-connector">
+
+                <span>↓</span>
+
+            </div>
+
+
+            <div class="architecture-layer database-layer">
+
+                <div class="layer-number">
+                    03
+                </div>
+
+                <div class="layer-content">
+
+                    <span class="layer-label">
+                        DATA
+                    </span>
+
+                    <h3>
+                        MySQL Database
+                    </h3>
+
+                    <p>
+                        Persistent storage for users,
+                        bookings and travel information.
+                    </p>
+
+                    <div class="architecture-tags">
+
+                        <span>MySQL</span>
+                        <span>Tables</span>
+                        <span>Relationships</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FLOW -->
+
+        <div class="architecture-flow">
+
+            <div>
+                User
+            </div>
+
+            <span>→</span>
+
+            <div>
+                UI
+            </div>
+
+            <span>→</span>
+
+            <div>
+                Java
+            </div>
+
+            <span>→</span>
+
+            <div>
+                JDBC
+            </div>
+
+            <span>→</span>
+
+            <div>
+                MySQL
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="cta-section">
+
+    <div class="cta-orb orb-a"></div>
+    <div class="cta-orb orb-b"></div>
+
+
+    <div class="cta-container">
+
+        <div class="cta-badge">
+            ✦ FINAL YEAR PROJECT
+        </div>
+
+        <h2>
+            Ready for the
+            <span>next journey?</span>
+        </h2>
+
+        <p>
+            TravelEase combines technology, design and
+            travel into one complete full-stack experience.
+        </p>
+
+
+        <div class="cta-actions">
+
+            <a
+                href="#screenshots"
+                class="primary-button magnetic"
+            >
+                Explore TravelEase
+                <span>↗</span>
+            </a>
+
+            <a
+                href="#home"
+                class="secondary-button magnetic"
+            >
+                Back to top
+                <span>↑</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+
+            <div class="brand-icon">
+                ✈
+            </div>
+
+            <div>
+
+                <strong>
+                    Travel<span>Ease</span>
+                </strong>
+
+                <p>
+                    Full-stack Travel Management System
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#screenshots">Screens</a>
+
+        </div>
+
+
+        <div class="footer-copy">
+
+            © <span id="year"></span>
+            TravelEase.
+
+            <br>
+
+            Built as a Final Year Project.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     BACK TO TOP
+========================================================= -->
+
+<button
+    class="back-top"
+    id="backTop"
+    aria-label="Back to top"
+>
+    ↑
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
